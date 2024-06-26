@@ -1,0 +1,79 @@
+/* /* :root{
+    --primary:green;
+    --secondary:seagreen;
+    --dark:gray;
+}
+
+
+h1{
+    text-align: right !important;
+    color: white;
+}
+
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+
+
+#special{
+    box-shadow: 1px 1px 10px var(--primary);
+    background-color: gray;
+}
+
+nav a{
+    color: cyan;
+}
+
+nav > a{
+    color: brown;
+    font-size: 22px;
+} */
+
+/* #special + h1{
+    font-size: 30px !important;
+}
+
+h2 ~ li{
+    color:red;  
+} */ 
+
+
+
+img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+section{
+    display: flex;
+   overflow: scroll;
+   gap: 10px;
+}
+
+section div{
+    padding: 10px;
+}
+
+#container{
+    background-color: lightpink;
+    height: 50vh;
+    align-items: start;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* css box modal */
+
+#container div{
+    background-color: skyblue;
+    border: 1px solid black;
+    padding: 30px;
+    width: fit-content;
+}

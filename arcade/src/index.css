@@ -1,0 +1,100 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 100px;
+  background-image: url("https://online.maryville.edu/wp-content/uploads/sites/97/2021/03/MVU-BFADM-2020-Q4-Skyscraper-Future-of-Video-Games-Trends-Technology-Types-header-v2.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+header h1{
+  font-size: 5vw;
+  color: white;
+  text-shadow: 1px 1px 5px black,3px 3px 6px blue;
+}
+
+
+.gameCard{
+  padding: 50px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color:black;
+  text-decoration: none;
+  font-size: 2vw;
+}
+
+.gameCard:hover{
+  background-color: darkslategray;
+}
+
+.flexbox{
+  margin: 20px;
+  display:flex;
+  gap: 20px;
+}
+
+.coinimg{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: flip 1s;
+}
+
+@keyframes flip {
+  from{
+    transform: rotateX(0deg);
+  }
+  to{
+    transform: rotateX(720deg);
+  }
+  
+}
+
+.gameTitle{
+  padding: 12px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 4vw;
+  margin-bottom: 20px;
+}
+
+#coin h4{
+  font-size: 2vw;
+}
+
+#coin button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1vw;
+  border:none;
+  color:white;
+  background-color: black;
+}
+#coin button:hover{
+  background-color: darkslategray;
+}
+
+#coin button:active{
+  background-color: yellow;
+  color: black;
+}
+
+
+.gamecards{
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+@import url('../node_modules/bootstrap');
+
+.games{
+    display: flex;
+    height: 90vh;
+}
+
+.games aside{
+    width: 300px;
+}
+
+.games main{
+    background-color: lightgreen;
+    flex: 1;
+}
